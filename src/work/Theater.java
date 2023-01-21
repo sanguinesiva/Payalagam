@@ -22,7 +22,7 @@ public class Theater {
 		screen2.movie_release();
 		screen1.movie_theater();
 			
-			
+	
 		
 	}
 	void movie_release() {
