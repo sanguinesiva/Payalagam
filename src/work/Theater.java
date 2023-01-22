@@ -5,7 +5,10 @@ public class Theater {
 	static String theater_name= "Jazz cinemas";// class specific info
 	static String movie_name; // object specific 
 	static int movie_time; // object specific
-	
+	public Theater() {
+		// TODO Auto-generated constructor stub
+		System.out.println("pongal Movie ");
+	}
 	
 	public static void main(String[] args) {
 		Theater screen1= new Theater();// screen1 object reference
