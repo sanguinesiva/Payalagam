@@ -20,7 +20,7 @@ public class Book {
 		Book Book1 = new Book(50);
 		Book Book2 = new Book(30);
 		Book Book3 = new Book(1000, 500);
-		Book book4 = new Book();
+	
 		Book1.sell();
 		Book3.sell();
 //		System.out.println(this.price);
