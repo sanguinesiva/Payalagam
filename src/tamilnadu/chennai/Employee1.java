@@ -7,9 +7,11 @@ public class Employee1 {
 		office.pay_salary();
 		Employee1 emp = new Employee1();
 		emp.study();
+		office.plan_statergy();
 	}
 
 	public void study() {
 		System.out.println("graduation");
 	}
+	
 }
