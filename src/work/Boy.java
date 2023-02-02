@@ -7,7 +7,7 @@ public class Boy {
 	//new Boy - Anonymous Object
 	String s = new Boy().enquire();
 	System.out.println(s);
-	System.out.println(new Boy().enquire());
+	System.out.println(new Boy().enquire());//composition of method
 	}
 
 	String enquire()
