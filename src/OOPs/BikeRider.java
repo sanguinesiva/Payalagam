@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public class BikeRider {
 	public static void main(String[] args) {
@@ -15,6 +15,7 @@ public class BikeRider {
 			
 			int diesel= gas.get_diesel_price();
 			System.out.println(diesel);
+			
 			gas.set_petrol_price(1000);
 			petrol=gas.get_petrol_price();
 			System.out.println(petrol);

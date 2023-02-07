@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public abstract class Parent {
 	public static void main(String[] args) {

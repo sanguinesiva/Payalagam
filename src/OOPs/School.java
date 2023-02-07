@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public class School {
 	public static void main(String[] args) {

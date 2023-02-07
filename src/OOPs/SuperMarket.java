@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public class SuperMarket {
 	static String shop_name = "walmart";

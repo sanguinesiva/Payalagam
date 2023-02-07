@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public class Employee extends Parent implements Organization,Library {
 	public static void main(String[] args) {

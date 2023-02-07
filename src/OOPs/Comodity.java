@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public class Comodity {
 	int gold_price= 4500;

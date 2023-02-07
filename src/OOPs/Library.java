@@ -1,4 +1,4 @@
-package work;
+package OOPs;
 
 public interface Library {
 	int book=2;
