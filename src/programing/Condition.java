@@ -1,5 +1,7 @@
 package programing;
 
+import javax.xml.transform.Source;
+
 public class Condition {
 	public static void main(String[] args) {
 		Condition li = new Condition();
@@ -9,6 +11,7 @@ public class Condition {
 		li.ifelse4();
 		li.ifelse5();
 		li.ifelse6();
+		li.ifelse7();
 	}
 
 	private void ifelse() {
@@ -65,28 +68,35 @@ public class Condition {
 		}
 
 	}
-	private void ifelse5(){
-		int math=100;
-		int science=100;
-		if(math==100&& science==100) {
+
+	private void ifelse5() {
+		int math = 100;
+		int science = 100;
+		if (math == 100 && science == 100) {
 			System.out.println("both are same");
-		}
-		else {
+		} else {
 			System.out.println("not same");
 		}
-		
+
 	}
-	private void ifelse6(){
-		int math=100;
-		int science=99;
-		if(math==100 || science==100) {
+
+	private void ifelse6() {
+		int math = 100;
+		int science = 99;
+		if (math == 100 || science == 100) {
 			System.out.println("both are same");
-		}
-		else {
+		} else {
 			System.out.println("not same");
 		}
-		
 	}
-	
-	
+
+	private void ifelse7() {
+		int no1 = 10, no2 = 10;
+
+		if (true) {
+			System.out.println("hi");
+
+		}
+
+	}
 }
