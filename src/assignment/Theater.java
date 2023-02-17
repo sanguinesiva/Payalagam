@@ -17,22 +17,23 @@ package assignment;
 //System.out.println("After booking ticket " + balance);
 
 public class Theater {
-//	static int balance;
+	static int balance;
 
 	public static void main(String[] args) {
 		Theater raja = new Theater();
-		int ticket_price = raja.bookTicket(200);
+		int ticket_price = raja.bookTicket();
 
 		System.out.println("After booking ticket " + balance);
 
 	}
 
-	public void bookTicket() {
+	public int bookTicket() {
 
 		int ticket_price = 120;
 		int balance = 200 - ticket_price;
 		System.out.println(balance);
 
+		return ticket_price;
 	}
 
 }
