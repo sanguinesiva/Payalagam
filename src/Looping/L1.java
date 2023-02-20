@@ -6,7 +6,7 @@ public class L1 {
         lo.armstrong(153);
 //		lo.find_palindrome(12321);
 //            lo.find_armstrong(153);
-//            int output= lo.find_power(4,5);
+            int output= lo.find_power(4,5);
 //           System.out.println(output);
 //        lo.find_common_divisors(50, 65);
         lo.find_lcm(5,52);
