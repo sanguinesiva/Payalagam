@@ -7,6 +7,7 @@ public class L3 {
         lo.decimal_to_binary();
         lo.binary_2_dec();
         lo.find_power(1,3);
+        lo.find_square_root1(10);
     }
 
     private void find_square_root(int no) {
@@ -57,6 +58,19 @@ public class L3 {
         }
         return result;
     }
+    private static void find_square_root1(int no) {
+        int divisor = 2;
+        while(divisor<no)
+        {
+            if(no/divisor == divisor&&no%divisor==0)
+            {
+                System.out.println(no+"is perfect Square Root " );
+                break;
+            }
+            divisor = divisor + 1;
+        }
+
+    }
 }
 
 //*private void binary_to_decimal() {
@@ -78,3 +92,4 @@ public class L3 {
 //		}
 //		System.out.println(decimal);
 //	} */
+
